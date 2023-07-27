@@ -22,7 +22,7 @@ O usuário deve ser capaz de:
 
 ### Links
 
-- Live Site URL: https://welington1209.github.io/desafio-flexbox-gerador-de-conselhos/
+- Live Site URL: ( https://welington1209.github.io/quest-html-css/ )
 
 ## Processo
 
