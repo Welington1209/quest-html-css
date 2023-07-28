@@ -1,20 +1,24 @@
-
 @media (max-width:1125px) {
 
 
     body {
-        background: url(../images/bg-mobile.svg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
         background-color: hsl(257, 40%, 49%);
     }
 
     .header .logo {
-        margin: 0;
+        margin-left: 15%;
     }
 
     .container {
         flex-direction: column;
         gap: 80px;
+    }
+
+    .container .imagem-principal {
+        margin: 0;
+        min-width: 75%;
     }
 
     .footer {
@@ -38,13 +42,17 @@
         align-self: auto;
     }
 
-    
+
     .container .text .button-register {
         width: 250px;
     }
 }
 
 @media (max-width:768px) {
+
+    body {
+        min-height: 100vh;
+    }
 
     .header {
         padding: 20px;
@@ -54,8 +62,8 @@
         width: 150px;
     }
 
-    img {
-        max-width: 500px;
+    .container .imagem-principal {
+        max-width: 80%;
     }
 
     .container {
@@ -64,13 +72,9 @@
 }
 
 @media (max-width:525px) {
-    img {
-        width: 280px;
-    }
-
     .container .text h1,
     .container .text h2 {
-        font-size: 25px;
-        line-height: 20px;
+        font-size: 22px;
+        line-height: 10px;
     }
 }
